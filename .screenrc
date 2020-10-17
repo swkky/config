@@ -1,0 +1,6 @@
+# プレフィックスをctrl + fに変更
+escape ^fF
+# マウススクロール
+termcapinfo xterm* ti@:te@
+# ステータスライン
+hardstatus alwayslastline "%{= cd} %-w%{= wk} %n %t* %{-}%+w %= LoadAVG [%l] "
